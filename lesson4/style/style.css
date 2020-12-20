@@ -340,6 +340,14 @@
 }
 .pricing-content__block{
     margin-right: 78px;
+    
+}
+.pricing-content__block:hover{
+    will-change: transform;
+    transition: transform 1s;
+    transform: translateY(-10%);
+    z-index: 10;
+      
 }
 .pricing-content__block:last-child{
     margin-right: 0;
