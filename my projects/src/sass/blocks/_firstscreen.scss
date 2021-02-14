@@ -1,0 +1,84 @@
+.firstscreen {
+    min-height: 800px;
+    position: relative;
+    background: url('../img/Rectangle.png') no-repeat 50%/cover;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    &__header {
+        width: 100%;
+        background: rgba(0, 91, 193, 0.6);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction: row;
+        &-logo {
+            padding: 11px 0 11px 40px;
+        }
+        &-nav {
+            margin-left: 555px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            ul {
+                display: flex;
+                flex-direction: row;
+    
+            }
+            li {
+                list-style-type: none;
+                padding-right: 27px;
+                &:nth-child(5) {
+                    padding-right: 0;
+                }
+            }
+            a {
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 600;
+                font-size: 14px;
+                color: #FFFFFF;
+            }
+        }
+    }
+    &__main {
+        padding-top: 202px;
+        height: 720px;
+        width: 444px;
+        margin-left: 405px;
+        background: rgba(0, 91, 193, 0.6);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-weight: 400;
+        .left {
+            margin-left: 190px;
+            width: 630px;
+        }
+        &-title {
+            font-family: 'Oswald', sans-serif;
+            font-size: 48px;
+            line-height: 71px;
+            letter-spacing: 0.01em;
+            padding-bottom: 40px;
+        }
+        &-subtitle {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            line-height: 22px;
+            padding-bottom: 40px;
+        }
+        &-btn {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            letter-spacing: 0.05em;
+            width: 160px;
+            height: 51px;
+            border: 2px solid #FFFFFF;
+            box-sizing: border-box;
+            background: rgba(0, 91, 193, 0);
+            color:#FFFFFF;
+            &:hover {
+                background: #FFFFFF;
+                color: #005BC1;
+            }
+            
+        }
+    }
+}

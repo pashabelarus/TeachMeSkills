@@ -1,0 +1,49 @@
+.catalog {
+    padding-top: 136px;
+    font-family: 'Oswald', sans-serif;
+    &__btns {
+        height: 41px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        a {
+            color: #343434;
+            margin-right: 47px;
+            &:hover {
+                color: #005BC1;
+            }
+        }
+    }
+    &__items {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        &-item {
+            position: relative;
+            div {
+                position: absolute;
+                right: 0;
+                top: 199px;
+                width: 265px;
+                height: 86px;
+                background: #005BC1;
+                font-size: 18px;
+                line-height: 27px;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                padding-left: 21px;
+                display: flex;
+                align-items: center;
+                
+            }
+        }
+
+    }
+}

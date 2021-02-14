@@ -1,0 +1,59 @@
+.footer {
+    margin-top: 136px;
+    background: #005BC1;
+    color: #FFFFFF;
+    a{
+        color: #FFFFFF;
+    }
+    &__header {
+        padding-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        &_tel {
+            a {
+                font-family: 'Oswald', sans-serif;
+                font-size: 18px;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+
+            }
+        }
+        &_addr {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 19px;
+
+        }
+
+    }
+    &__divider {
+        margin-top: 16px;
+        width: 100%;
+        height: 1px;
+        background-color: #FFFFFF;
+    }
+    &__main {
+        margin-top: 25px;
+        display: grid;
+        grid-template: repeat(2,minmax(19px,auto)) / repeat(3,190px);
+        row-gap: 10px;
+        padding-bottom: 9px;
+        a {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 19px;
+        }
+
+    }
+    &__foot {
+        padding: 25px 0;
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
